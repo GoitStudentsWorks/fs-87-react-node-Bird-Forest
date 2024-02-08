@@ -12,7 +12,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <Provider store={store}>
       <PersistGate loading={<Loader />} persistor={persistor}>
-        <BrowserRouter basename="water-tracker-tw">
+        <BrowserRouter basename="fs-87-react-node-Bird-Forest">
           <App />
         </BrowserRouter>
       </PersistGate>
